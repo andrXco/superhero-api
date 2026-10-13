@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">superhero_api</string>
+    <string name="hero_full_name">Nombre completo: %1$s</string>
+    <string name="hero_publisher">Editorial: %1$s</string>
+    <string name="generic_error">No se pudieron cargar los datos.</string>
+    <string name="retry">Reintentar</string>
+    <string name="hero_alignment">Alineación: %1$s</string>
+    <string name="hero_occupation">Ocupación: %1$s</string>
+    <string name="hero_first_appearance">Primera aparición: %1$s</string>
+    <string name="hero_gender">Género: %1$s</string>
+    <string name="hero_race">Raza: %1$s</string>
+    <string name="hero_height">Altura: %1$s</string>
+    <string name="hero_weight">Peso: %1$s</string>
+    <string name="hero_intelligence">Inteligencia: %1$d</string>
+    <string name="hero_strength">Fuerza: %1$d</string>
+    <string name="back">Volver</string>
 </resources>
