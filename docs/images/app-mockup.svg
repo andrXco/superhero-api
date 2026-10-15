@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" role="img" aria-labelledby="title desc">
+  <title id="title">Superhero API screen mockup</title>
+  <desc id="desc">Conceptual representation of the superhero catalog screen and a character detail screen on Android phones.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0C1223"/><stop offset="1" stop-color="#181C36"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7256DC"/><stop offset="1" stop-color="#393E91"/></linearGradient>
+    <linearGradient id="portrait" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#38BDF8"/><stop offset="1" stop-color="#4338CA"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-20%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#030712" flood-opacity=".5"/></filter>
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}.muted{fill:#64748B}.lightmuted{fill:#B8C0D9}.label{font-size:14px;letter-spacing:.12em;font-weight:700}.heading{font-size:23px;font-weight:750}.small{font-size:14px}.body{font-size:17px}.phone{fill:#F8FAFC}.ink{fill:#172033}.screenmuted{fill:#68748B}
+    </style>
+  </defs>
+  <rect width="1500" height="760" rx="32" fill="url(#bg)"/>
+  <circle cx="1330" cy="145" r="190" fill="#7C3AED" opacity=".10"/><circle cx="190" cy="700" r="170" fill="#4F46E5" opacity=".10"/>
+  <text x="76" y="70" class="label" fill="#A78BFA">SUPERHERO API · ANDROID</text>
+  <text x="76" y="122" font-size="38" font-weight="750">Explore the superhero universe</text>
+  <text x="76" y="156" class="body lightmuted">Browse characters and profiles with biographies, images, and stats.</text>
+  <text x="396" y="210" text-anchor="middle" class="label" fill="#C4B5FD">01 · CATALOG</text>
+  <text x="1102" y="210" text-anchor="middle" class="label" fill="#C4B5FD">02 · CHARACTER PROFILE</text>
+
+  <!-- Phone 1 -->
+  <g filter="url(#shadow)"><rect x="250" y="232" width="292" height="468" rx="38" fill="#090D16" stroke="#475569" stroke-width="2"/><rect x="262" y="245" width="268" height="442" rx="29" class="phone"/></g>
+  <rect x="346" y="253" width="100" height="18" rx="9" fill="#090D16"/>
+  <text x="280" y="293" font-size="10" class="ink" font-weight="700">9:41</text><circle cx="493" cy="287" r="4" fill="#172033"/><path d="M503 290h13" stroke="#172033" stroke-width="2" stroke-linecap="round"/>
+  <text x="282" y="333" font-size="22" class="ink" font-weight="750">Superheroes</text><text x="282" y="356" class="small screenmuted">Discover characters</text>
+  <rect x="278" y="374" width="236" height="78" rx="15" fill="#EEF1F8"/>
+  <rect x="288" y="383" width="54" height="60" rx="10" fill="url(#portrait)"/>
+  <circle cx="315" cy="402" r="11" fill="#F5C7A5"/><path d="M304 401q11-17 23 0v-7q-12-13-23 0z" fill="#1E293B"/><path d="M298 439q2-24 17-24 16 0 18 24" fill="#E63946"/><path d="m309 419 6 5 7-5" fill="#F8FAFC"/>
+  <text x="354" y="405" font-size="15" class="ink" font-weight="700">Spider-Man</text><text x="354" y="425" class="small screenmuted">Peter Parker</text><text x="354" y="443" font-size="11" class="screenmuted">Marvel Comics</text>
+  <rect x="278" y="462" width="236" height="78" rx="15" fill="#EEF1F8"/>
+  <rect x="288" y="471" width="54" height="60" rx="10" fill="#E2A63A"/>
+  <circle cx="315" cy="490" r="11" fill="#E7B890"/><path d="M304 489q10-17 22 0v-8q-11-12-22 0z" fill="#4B291E"/><path d="M298 527q2-23 17-23 16 0 18 23" fill="#29478E"/><path d="m305 510 10 7 10-7" fill="#DAB938"/>
+  <text x="354" y="493" font-size="15" class="ink" font-weight="700">Wonder Woman</text><text x="354" y="513" class="small screenmuted">Diana Prince</text><text x="354" y="531" font-size="11" class="screenmuted">DC Comics</text>
+  <rect x="278" y="550" width="236" height="78" rx="15" fill="#EEF1F8"/>
+  <rect x="288" y="559" width="54" height="60" rx="10" fill="#344A69"/>
+  <circle cx="315" cy="578" r="11" fill="#E6BA99"/><path d="M304 579q11-20 22-1v-12q-13-12-22 0z" fill="#111827"/><path d="M298 615q2-23 17-23 16 0 18 23" fill="#171B26"/><path d="m306 598 9 6 9-6" fill="#FACC15"/>
+  <text x="354" y="581" font-size="15" class="ink" font-weight="700">Batman</text><text x="354" y="601" class="small screenmuted">Bruce Wayne</text><text x="354" y="619" font-size="11" class="screenmuted">DC Comics</text>
+  <rect x="352" y="671" width="88" height="5" rx="2.5" fill="#172033"/>
+
+  <!-- Connector -->
+  <path d="M577 469h98" stroke="#A78BFA" stroke-width="2.5" stroke-dasharray="5 7"/><circle cx="626" cy="469" r="23" fill="#242145" stroke="#7561D2"/><path d="M618 469h15m-6-7 7 7-7 7" fill="none" stroke="#DDD6FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Phone 2 -->
+  <g filter="url(#shadow)"><rect x="850" y="232" width="292" height="468" rx="38" fill="#090D16" stroke="#475569" stroke-width="2"/><rect x="862" y="245" width="268" height="442" rx="29" class="phone"/></g>
+  <rect x="946" y="253" width="100" height="18" rx="9" fill="#090D16"/>
+  <text x="880" y="293" font-size="10" class="ink" font-weight="700">9:41</text><circle cx="1093" cy="287" r="4" fill="#172033"/><path d="M1103 290h13" stroke="#172033" stroke-width="2" stroke-linecap="round"/>
+  <text x="882" y="329" font-size="14" fill="#5141A5" font-weight="650">‹  Back</text>
+  <rect x="882" y="345" width="228" height="148" rx="16" fill="url(#panel)"/>
+  <circle cx="996" cy="400" r="39" fill="#FFFFFF" opacity=".1"/><circle cx="996" cy="390" r="24" fill="#EEC29F"/><path d="M971 392q24-38 50 0v-15q-25-25-50 0z" fill="#A92A38"/><path d="M955 476q5-65 41-65 37 0 42 65" fill="#D8384A"/><path d="m976 419 20 13 20-13" fill="#F8FAFC"/><path d="M882 345h16v16h-16z" fill="#FFFFFF" opacity=".12"/>
+  <text x="882" y="526" font-size="23" class="ink" font-weight="750">Spider-Man</text><text x="882" y="550" class="small screenmuted">Real name: Peter Parker</text>
+  <rect x="882" y="566" width="108" height="26" rx="13" fill="#EEEAFB"/><text x="896" y="584" font-size="11" fill="#5141A5" font-weight="700">Marvel Comics</text>
+  <text x="882" y="619" class="small ink" font-weight="700">Power stats</text>
+  <text x="882" y="641" font-size="10" class="screenmuted">INTELIGENCIA</text><rect x="972" y="634" width="112" height="8" rx="4" fill="#E8EAF1"/><rect x="972" y="634" width="82" height="8" rx="4" fill="#6C56C9"/>
+  <text x="882" y="662" font-size="10" class="screenmuted">FUERZA</text><rect x="972" y="655" width="112" height="8" rx="4" fill="#E8EAF1"/><rect x="972" y="655" width="94" height="8" rx="4" fill="#6C56C9"/>
+  <rect x="952" y="671" width="88" height="5" rx="2.5" fill="#172033"/>
+
+  <rect x="1208" y="305" width="222" height="130" rx="18" fill="#171E35" stroke="#34415C"/>
+  <text x="1230" y="340" class="label" fill="#A78BFA">CATALOG</text><text x="1230" y="371" class="small lightmuted">Character list</text><text x="1230" y="396" class="small lightmuted">Image, name, and publisher</text>
+  <rect x="1208" y="455" width="222" height="154" rx="18" fill="#171E35" stroke="#34415C"/>
+  <text x="1230" y="490" class="label" fill="#6EE7B7">DETAIL</text><text x="1230" y="521" class="small lightmuted">Biography and appearance</text><text x="1230" y="546" class="small lightmuted">Power stats</text><text x="1230" y="581" class="small" fill="#C4B5FD">GET /id/{id}.json</text>
+  <text x="1208" y="658" class="small lightmuted">Visual concept based on</text><text x="1208" y="681" class="small lightmuted">the screens in the code.</text>
+</svg>
